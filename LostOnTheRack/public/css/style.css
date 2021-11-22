@@ -1,0 +1,32 @@
+* {
+    --clr-hover: #0d6efd;
+    --navbar-shadow: 0 0 10px -3px #010101;
+}
+
+.navbar {
+    box-shadow: var(--navbar-shadow);
+}
+
+/* remove this later */
+/* this is jsut to add some room and spacing to the footer */
+main.container {
+    height: 90vh;
+}
+main.landing-container {
+    height: 75vh;
+}
+/* remove the above styling rules */
+
+.email-link:hover {
+    color: var(--clr-hover) !important;
+}
+.social-link {
+    color: #fff;
+}
+.social-link:hover {
+    color: var(--clr-hover) !important;
+}
+.social-svg {
+    width: 20px;
+    height: 20px;
+}
